@@ -1,0 +1,485 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:0;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+  
+    
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+a{
+    /*color:black;*/
+   color:rgba(255,75,167);
+    font-size:1em;
+}
+
+
+body{
+    background-color: rgba(42,40,40);
+    height: 300vh;
+    
+}
+
+.wrap{
+    height: 100vh;
+    
+    
+   
+
+    
+}
+
+.pr1{
+    width: 983px;
+    height: 414px;
+}
+
+.header{
+    height: 70px;
+    display: block;
+    position: relative;
+}
+
+.main-header{
+    display: flex;
+    margin-top: 24px;
+}
+
+.header-container{
+    top:0px;
+    position: relative;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.icon{
+    margin-right: 25px;
+}
+
+
+
+.icon::before{
+    content:url("BRID.png");
+    margin-left: 20px;
+        
+}
+
+.tab{
+    display: block;
+    margin-right: 150px;
+    
+}
+
+.seri{
+    display: flex;
+    margin: 20px 0px
+}
+
+.tab2{
+    display: block;
+    margin-right: 150px;
+    
+    
+}
+
+.seri2{
+    display: flex;
+    margin: 20px 0px;
+    
+}
+
+.sub-header{
+    position: absolute;
+    right: 0;
+}
+
+
+.PR{
+    position: absolute;
+    width: 830p;
+    height: 415px;
+    top: 13%;
+    margin-left: 409px;
+    border: 3px solid pink;
+    background-image: url(###);
+    background-repeat: no-repeat;
+}
+
+/*국내영화차트*/
+
+
+.ollin{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 17%
+}
+
+
+.Korea-chart{
+    position: absolute;
+    top: 43%;
+    left: 12%;
+    color: white;
+    width: 158px;
+    height: 49px;
+    font-size: 1.5em;
+}
+
+.num1{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 69%;
+    left: 10%;
+    
+}
+
+.chart1{
+    position: absolute;
+   
+    width: 168px;
+    height: 25%;
+    top: 49%;
+    left: 12%;
+    border-radius: 4%;
+}
+
+.num2{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 69%;
+    left: 25%;
+
+}
+
+.chart2{
+    position: absolute;
+    
+    width: 168px;
+    height: 25%;
+    top: 49%;
+    left: 27%;
+    border-radius: 4%;
+}
+
+.num3{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 69%;
+    left: 41%;
+}
+
+.chart3{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220607_129%2F16545872892918GA4h_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 49%;
+    left: 43%;
+    border-radius: 4%;
+}
+
+.num4{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 69%;
+    left: 57%;
+}
+
+.chart4{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220516_144%2F1652665409592Chvey_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 49%;
+    left: 59%;
+    border-radius: 4%;
+}
+
+.num5{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 69%;
+    left: 74%;
+}
+
+.chart5{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 49%;
+    left: 76%;
+    border-radius: 4%;
+}
+
+
+/*해외영화 차트*/
+
+
+.overseas-chart{
+    position: absolute;
+    top: 81%;
+    left: 12%;
+    color: white;
+    width: 158px;
+    height: 49px;
+    font-size: 1.5em;
+}
+
+.num7{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 107%;
+    left: 10%;
+    
+}
+
+.chart7{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220706_263%2F1657071698045SKrKH_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 87%;
+    left: 12%;
+    border-radius: 4%;
+}
+
+.num8{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 107%;
+    left: 25%;
+
+}
+
+.chart8{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220509_176%2F1652081912471yhg3N_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 87%;
+    left: 27%;
+    border-radius: 4%;
+}
+
+.num9{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 107%;
+    left: 41%;
+}
+
+.chart9{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220607_129%2F16545872892918GA4h_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 87%;
+    left: 43%;
+    border-radius: 4%;
+}
+
+.num10{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 107%;
+    left: 57%;
+}
+
+.chart10{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220516_144%2F1652665409592Chvey_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 87%;
+    left: 59%;
+    border-radius: 4%;
+}
+
+.num11{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 107%;
+    left: 74%;
+}
+
+.chart11{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 87%;
+    left: 76%;
+    border-radius: 4%;
+}
+
+ 
+/*독립 영화 차트 */
+
+.i-chart{
+    position: absolute;
+    top: 119%;
+    left: 12%;
+    color: white;
+    width: 158px;
+    height: 49px;
+    font-size: 1.5em;
+}
+
+.num13{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 145%;
+    left: 10%;
+    
+}
+
+.chart13{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220706_263%2F1657071698045SKrKH_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 125%;
+    left: 12%;
+    border-radius: 4%;
+}
+
+.num14{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 145%;
+    left: 25%;
+
+}
+
+.chart14{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220509_176%2F1652081912471yhg3N_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 125%;
+    left: 27%;
+    border-radius: 4%;
+}
+
+.num15{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 145%;
+    left: 41%;
+}
+
+.chart15{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220607_129%2F16545872892918GA4h_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 125%;
+    left: 43%;
+    border-radius: 4%;
+}
+
+.num16{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 145%;
+    left: 57%;
+}
+
+.chart16{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220516_144%2F1652665409592Chvey_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 125%;
+    left: 59%;
+    border-radius: 4%;
+}
+
+.num17{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 145%;
+    left: 74%;
+}
+
+.chart17{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 125%;
+    left: 76%;
+    border-radius: 4%;
+}
+
+.num18{
+    position: absolute;
+    color: white;
+    font-size: 2.4em;
+    top: 145%;
+    left: 90%;
+}
+
+.chart18{
+    position: absolute;
+    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
+    width: 168px;
+    height: 25%;
+    top: 125%;
+    left: 92%;
+    border-radius: 4%;
+}
+
+.go > a{
+    width: 169px;
+    height: 36px;
+    background: pink;
+    color: black;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.go{
+    width: 169px;
+    height: 36px;
+    background: pink;
+    color: black;
+    font-size: 1.2em;
+  
+    text-align: center;
+    margin-top: -5px;
+}

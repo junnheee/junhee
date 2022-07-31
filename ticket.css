@@ -1,0 +1,119 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:0;
+    list-style: none;
+    text-decoration: none; 
+    border-collapse: collapse;
+  
+    
+    
+}
+
+body{
+    background-color: rgba(42,40,40);
+    height: 300vh;
+    
+}
+
+.wrap{
+    height: 1500px;
+}
+
+.main{
+    position: relative;
+    top: 11%;
+    height: 600px;
+    width: 1300px;
+    margin-left: 290px;
+    display: flex;
+}
+
+.movie{
+    width: 305px;
+    height: 580px;
+    border: 3px solid pink;
+    background-color: white;
+}
+
+.main-movie{
+    width: 306px;
+    height: 40px;
+    text-align: center;
+    margin-top:10px;
+    
+}
+
+.main-movie > hr{
+    border : 1px solid black;
+}
+
+.sub-movie > li{
+    position: relative;
+    left: -41px;
+    width: 119px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.theater{
+    width: 305px;
+    height: 580px;
+    border: 3px solid pink;
+    background-color: white;
+}
+
+.main2-movie{
+    width: 306px;
+    height: 40px;
+    text-align: center;
+    margin-top:10px;
+    
+}
+
+.main2-movie > hr{
+    border : 1px solid black;
+}
+
+.sub2-movie > li{
+    position: relative;
+    left: -41px;
+    width: 119px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.date{
+    width: 305px;
+    height: 580px;
+    border: 3px solid pink;
+    background-color: white;
+}
+.main3-movie{
+    width: 306px;
+    height: 40px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.main3-movie > hr{
+    border : 1px solid black;
+}
+
+.clock{
+    width: 305px;
+    height: 580px;
+    border: 3px solid pink;
+    background-color: white;
+}
+
+.main4-movie{
+    width: 306px;
+    height: 40px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.main4-movie > hr{
+    border : 1px solid black;
+}
+
+

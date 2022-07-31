@@ -1,0 +1,13 @@
+* {
+   
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+
+
+#ele{
+    width: 70px;
+    top: 31.7%;
+    left: 11.5%;
+    position: absolute;
+}

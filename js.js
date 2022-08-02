@@ -23,4 +23,18 @@ const staticImg="https://search.pstatic.net/common?type=o&size=174x242&quality=8
     img2.addEventListener("mouseleave", function() {
         img2.src = staticImg;
     });
-    
+
+
+
+   
+  function zoomIn(event) {
+    event.target.style.transform = "scale(1.6)";
+    event.target.style.zIndex = 1;
+    event.target.style.transition = "all 0.5s";
+  }
+
+  function zoomOut(event) {
+    event.target.style.transform = "scale(1)";
+    event.target.style.zIndex = 0;
+    event.target.style.transition = "all 0.5s";
+  }

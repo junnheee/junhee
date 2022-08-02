@@ -33,18 +33,9 @@ body{
 }
 
 .wrap{
-    height: 100vh;
-    
-    
-   
-
-    
+    height: 280vh;  
 }
 
-.pr1{
-    width: 983px;
-    height: 414px;
-}
 
 .header{
     height: 70px;
@@ -110,376 +101,74 @@ body{
 
 
 .PR{
-    position: absolute;
-    width: 830p;
-    height: 415px;
-    top: 13%;
+    position: relative;
+    width: 1000px;
+    height: 405px;
+    margin-top: 52px;
     margin-left: 409px;
     border: 3px solid pink;
     background-image: url(###);
     background-repeat: no-repeat;
 }
 
-/*국내영화차트*/
-
-
-.ollin{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 17%
+.pr1{
+    position: relative;
+    top: 4%;
+    margin-left: 409px;
+    background-image: url(###);
+    background-repeat: no-repeat;
 }
 
 
-.Korea-chart{
-    position: absolute;
-    top: 43%;
-    left: 12%;
-    color: white;
-    width: 158px;
-    height: 49px;
-    font-size: 1.5em;
-}
-
-.num1{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 69%;
-    left: 10%;
-    
-}
-
-.chart1{
-    position: absolute;
+.movie{
    
-    width: 168px;
-    height: 25%;
-    top: 49%;
-    left: 12%;
-    border-radius: 4%;
+    height: 157vh;
+    position: relative;
+    width: 75%;
+    margin-top: 80px;
+    margin-left: 208px;
+    border: 3px solid pink;
 }
 
-.num2{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 69%;
-    left: 25%;
-
+.sub-movie{
+    height: 120vh;
+    position: relative;
+   
 }
 
-.chart2{
-    position: absolute;
+img{
+    max-width: 100%;
+}
+
+.img {
     
-    width: 168px;
-    height: 25%;
-    top: 49%;
-    left: 27%;
-    border-radius: 4%;
+    position: relative;
+    float: left;
+    width: 210px;
+    height: 385px;
+    margin: 67px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
 }
 
-.num3{
+#img1{
+    height: 290px;
+    position: relative;
+}
+
+.img1-1{
+    width: 210px;
+}
+
+.img1-2{
     position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 69%;
-    left: 41%;
+    top:0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    width: 210px;
 }
 
-.chart3{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220607_129%2F16545872892918GA4h_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 49%;
-    left: 43%;
-    border-radius: 4%;
-}
-
-.num4{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 69%;
-    left: 57%;
-}
-
-.chart4{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220516_144%2F1652665409592Chvey_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 49%;
-    left: 59%;
-    border-radius: 4%;
-}
-
-.num5{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 69%;
-    left: 74%;
-}
-
-.chart5{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 49%;
-    left: 76%;
-    border-radius: 4%;
-}
-
-
-/*해외영화 차트*/
-
-
-.overseas-chart{
-    position: absolute;
-    top: 81%;
-    left: 12%;
-    color: white;
-    width: 158px;
-    height: 49px;
-    font-size: 1.5em;
-}
-
-.num7{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 107%;
-    left: 10%;
-    
-}
-
-.chart7{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220706_263%2F1657071698045SKrKH_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 87%;
-    left: 12%;
-    border-radius: 4%;
-}
-
-.num8{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 107%;
-    left: 25%;
-
-}
-
-.chart8{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220509_176%2F1652081912471yhg3N_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 87%;
-    left: 27%;
-    border-radius: 4%;
-}
-
-.num9{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 107%;
-    left: 41%;
-}
-
-.chart9{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220607_129%2F16545872892918GA4h_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 87%;
-    left: 43%;
-    border-radius: 4%;
-}
-
-.num10{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 107%;
-    left: 57%;
-}
-
-.chart10{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220516_144%2F1652665409592Chvey_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 87%;
-    left: 59%;
-    border-radius: 4%;
-}
-
-.num11{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 107%;
-    left: 74%;
-}
-
-.chart11{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 87%;
-    left: 76%;
-    border-radius: 4%;
-}
-
- 
-/*독립 영화 차트 */
-
-.i-chart{
-    position: absolute;
-    top: 119%;
-    left: 12%;
-    color: white;
-    width: 158px;
-    height: 49px;
-    font-size: 1.5em;
-}
-
-.num13{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 145%;
-    left: 10%;
-    
-}
-
-.chart13{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220706_263%2F1657071698045SKrKH_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 125%;
-    left: 12%;
-    border-radius: 4%;
-}
-
-.num14{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 145%;
-    left: 25%;
-
-}
-
-.chart14{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220509_176%2F1652081912471yhg3N_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 125%;
-    left: 27%;
-    border-radius: 4%;
-}
-
-.num15{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 145%;
-    left: 41%;
-}
-
-.chart15{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220607_129%2F16545872892918GA4h_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 125%;
-    left: 43%;
-    border-radius: 4%;
-}
-
-.num16{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 145%;
-    left: 57%;
-}
-
-.chart16{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220516_144%2F1652665409592Chvey_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 125%;
-    left: 59%;
-    border-radius: 4%;
-}
-
-.num17{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 145%;
-    left: 74%;
-}
-
-.chart17{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 125%;
-    left: 76%;
-    border-radius: 4%;
-}
-
-.num18{
-    position: absolute;
-    color: white;
-    font-size: 2.4em;
-    top: 145%;
-    left: 90%;
-}
-
-.chart18{
-    position: absolute;
-    background-image: url("https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20220615_63%2F1655270906406BGdFF_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2");
-    width: 168px;
-    height: 25%;
-    top: 125%;
-    left: 92%;
-    border-radius: 4%;
-}
-
-.go > a{
-    width: 169px;
-    height: 36px;
-    background: pink;
-    color: black;
-    font-size: 1.2em;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-top: -5px;
-}
-
-.go{
-    width: 169px;
-    height: 36px;
-    background: pink;
-    color: black;
-    font-size: 1.2em;
-  
-    text-align: center;
-    margin-top: -5px;
-}
+#img1:hover .img1-2 {
+    opacity: 1;
+  }
